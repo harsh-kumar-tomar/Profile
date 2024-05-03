@@ -1,0 +1,63 @@
+/* Custom CSS */
+body {
+    background-color: #0e1630; /* Change this to your desired body background color */
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+}
+
+.container-fluid {
+    background-color: #0e1630; /* Change this to your desired navbar background color */
+    padding-right: 0; /* Remove default container padding */
+    padding-left: 0; /* Remove default container padding */
+    margin-right: auto; /* Center the container horizontally */
+    margin-left: auto; /* Center the container horizontally */
+}
+
+.navbar {
+    background-color: #0e1630; /* Change this to your desired navbar background color */
+    padding-top: 0; /* Remove default navbar padding */
+    padding-bottom: 0; /* Remove default navbar padding */
+}
+@font-face {
+    font-family: 'CustomFont';
+    src: url(../font/poiretone.ttf) format('truetype'); /* Change 'path/to/fontfile.ttf' to the actual path of your font file */
+}
+
+/* Apply Custom Font Family */
+body {
+    font-family: 'CustomFont' ; /* Fallback to sans-serif if custom font is not available */
+    padding-top: 15px;
+}
+h1 {
+    font-family: 'CustomFont' ; /* Fallback to sans-serif if custom font is not available */
+    font-weight:680 ;
+    padding-top: 15px;
+}
+h4 {
+    font-family: 'CustomFont' ; /* Fallback to sans-serif if custom font is not available */
+    font-weight:680 ;
+}
+    /* CSS for the Courses link */
+    #courses-link {
+        /* Default font color */
+        color: #808dad;
+        font-family: sans-serif;
+    }
+    .container {
+        display: flex; /* Use flexbox */
+        align-items: center; /* Align items vertically */
+    }
+
+    .profile-image {
+        margin-left: auto; /* Move image to the end */
+        border-radius: 50%; /* Apply border-radius to create a circular shape */
+    }
+    
+  
+    /* CSS for the Courses link when hovered over */
+    #courses-link:hover {
+        /* Font color when hovered over */
+        color:#01d293; /* Change this to your desired hover color */
+    }
+
+
